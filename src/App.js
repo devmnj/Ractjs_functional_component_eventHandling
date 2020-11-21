@@ -1,8 +1,11 @@
-import Person1 from "./components/Person1";
+import Button1 from "./components/Button1";
+import Button2 from "./components/Button2";
+
 import "./App.css"
 function App() {
   return <div className="App">
-      <Person1 name='Raju'/>
+      <Button1/>
+      <Button2/> 
   </div>
 }
 
